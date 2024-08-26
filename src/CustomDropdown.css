@@ -1,0 +1,37 @@
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .selected-option {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .options-list {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .option-item {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .option-item:hover {
+    background-color: #575757;
+  }
+  
+  .custom-dropdown:hover .options-list {
+    display: block;
+  }
+  
