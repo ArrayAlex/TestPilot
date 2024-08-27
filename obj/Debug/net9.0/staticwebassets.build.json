@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "2YNIEjXWHopg5qJsGEqwSKGBFUjMxlpssx8rSx8IjTc=",
+  "Source": "TestPilot",
+  "BasePath": "_content/TestPilot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

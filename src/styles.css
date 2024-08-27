@@ -15,3 +15,17 @@
         transform: rotate(360deg);
     }
 }
+.overflow-auto-custom {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .response-display-wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100vw; /* Full viewport width */
+}
+
+.response-display-container {
+    width: 95vw; /* Set width to 95% of the viewport width */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
